@@ -1,0 +1,20 @@
+<apex:page standardController="Patient__c">
+    <apex:form >
+        <apex:pageBlock title="Southern Heart ">
+            <apex:pageBlockSection id="Block" >
+                <apex:inputField value="{!Patient__c.Name}"/>  
+                <apex:inputField value="{!Patient__c.Phone_Number__c}"/>
+                <apex:inputField value="{!Patient__c.Email__c}"/>         
+                <apex:inputField value="{!Patient__c.Age__c}"/>
+                <apex:inputField value="{!Patient__c.Gender__c}"/>
+                <apex:inputField value="{!Patient__c.Specialization__c}"/>
+				<apex:inputField value="{!Patient__c.Language__c}"/>
+                <apex:inputField value="{!Patient__c.Appointment_Date__c}"/>                       
+                </apex:pageBlockSection>
+             <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!save}" value="Submit"  rerender="Block" />
+            </apex:pageBlockButtons>
+              </apex:pageBlock>
+   </apex:form>
+       
+</apex:page>
