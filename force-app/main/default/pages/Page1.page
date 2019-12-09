@@ -8,12 +8,20 @@
                 <apex:inputField value="{!Patient__c.Age__c}"/>
                 <apex:inputField value="{!Patient__c.Gender__c}"/>
                 <apex:inputField value="{!Patient__c.Specialization__c}"/>
+<<<<<<< HEAD
                 <apex:inputField value="{!Patient__c.Language__c}"/>
                 <apex:inputField value="{!Patient__c.Appointment_Date__c}"/>                       
                 </apex:pageBlockSection>
              <apex:pageBlockButtons location="bottom">
                 <apex:commandButton action="{!save}" value="Save"  rerender="Block" />
                 
+=======
+				<apex:inputField value="{!Patient__c.Language__c}"/>
+                <apex:inputField value="{!Patient__c.Appointment_Date__c}"/>                       
+                </apex:pageBlockSection>
+             <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!save}" value="Submit"  rerender="Block" />
+>>>>>>> d0f199551917cdc78692e150d335c834e0663219
             </apex:pageBlockButtons>
               </apex:pageBlock>
    </apex:form>
