@@ -1,0 +1,8 @@
+<apex:page >
+    <apex:form >
+        
+        <apex:pageBlock title="Congratulations!!!..Your Appointment has been submitted">
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

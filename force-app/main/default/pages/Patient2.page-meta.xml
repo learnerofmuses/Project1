@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>47.0</apiVersion>
-<<<<<<< HEAD
-    <availableInTouch>true</availableInTouch>
-=======
     <availableInTouch>false</availableInTouch>
->>>>>>> d0f199551917cdc78692e150d335c834e0663219
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>Page1</label>
+    <label>Patient2</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>11</minorNumber>
